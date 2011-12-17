@@ -9,11 +9,13 @@ import java.io.Serializable;
 import java.util.Random;
 import javax.annotation.PostConstruct;
 import javax.enterprise.context.SessionScoped;
+import javax.inject.Named;
 
 /**
  *
  * @author duncan
  */
+@Named
 @SessionScoped
 public class TemplateClass implements Serializable {
     
@@ -22,6 +24,10 @@ public class TemplateClass implements Serializable {
     public String getColor(){
         return "@nice-blue: "+ color + ";";
         
+    }
+    
+    public String getColour(){
+        return color;
     }
     
     @PostConstruct

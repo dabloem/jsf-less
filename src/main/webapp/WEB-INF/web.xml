@@ -13,6 +13,11 @@
         <servlet-name>Faces Servlet</servlet-name>
         <url-pattern>*.jsf</url-pattern>
     </servlet-mapping>
+<!--    <context-param>
+        <description>Client of Server-side compilation</description>
+        <param-name>less.serverside</param-name>
+        <param-value>false</param-value>
+    </context-param>-->
     <session-config>
         <session-timeout>
             30

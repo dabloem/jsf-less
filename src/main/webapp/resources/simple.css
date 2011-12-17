@@ -1,0 +1,13 @@
+/* 
+    Document   : simple
+    Created on : Nov 30, 2011, 11:00:15 PM
+    Author     : duncan
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.test { 
+    display: block;
+    color : #{templateClass.colour};
+}
+

@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author duncan
  */
-@WebServlet(name = "SettingsServlet", urlPatterns = {"*.less"})
+@WebServlet(name = "SettingsServlet", urlPatterns = {"*.lss"})
 public class SettingsServlet extends HttpServlet {
 
     @Inject
